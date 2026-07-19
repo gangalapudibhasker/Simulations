@@ -1,7 +1,7 @@
 {
-  "buildCommand": "cd src && npm ci && npm run build",
+  "buildCommand": "cd src && npm install && npm run build",
   "outputDirectory": "src/build",
-  "installCommand": "cd src && npm ci",
+  "installCommand": "cd src && npm install",
   "env": {
     "CI": "false"
   }
